@@ -484,7 +484,10 @@ function render(){
   });
 }
 
-function updateStats(rows){}
+function updateStats(rows){
+  const el=document.getElementById('statsGrid');
+  if(!el) return;
+}
 
 // ── Status dropdown ───────────────────────────────────────────────────────
 let openMenuId=null;
